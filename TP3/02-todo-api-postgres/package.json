@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "02-todo-api-postgres",
   "version": "1.0.0",
@@ -19,3 +20,26 @@
     "nodemon": "^3.1.14"
   }
 }
+=======
+{
+  "name": "02-todo-api-postgres",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Ernesto Ledesma",
+  "license": "MIT",
+  "description": "Practica 02: TODO API con Node + Docker + Postgres para persistencia",
+  "dependencies": {
+    "express": "^5.2.1",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
+>>>>>>> a43ec926be436df9af3317ee797986c140e9a1e8
